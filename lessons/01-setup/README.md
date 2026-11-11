@@ -15,8 +15,8 @@ Video: coming soon · Full course: https://www.youtube.com/playlist?list=PLPyBpE
 
 ## Check your tools (in VS Code: Terminal → New Terminal, or Control + backtick)
 ```
-node --version     # v26.x if you just installed the LTS (this lesson's Mac says v22.23.1, also fine)
-npm --version      # 11.x with Node 26 (10.9.8 on this lesson's Mac)
+node --version     # v26.13.0 in the video (the LTS when it was recorded; a newer LTS is fine)
+npm --version      # 11.20.0 in the video (the npm that comes with Node 26.13.0)
 ```
 - An error like "command not found"? Close VS Code, open it again, and try again (the terminal gets VS Code's
   environment from when it started).
@@ -42,7 +42,8 @@ Stop the server with **Control C** (Control on a Mac too).
 
 ## Files
 - `solution/`: the js-course project exactly as `npm create vite@latest js-course -- --template vanilla` made it
-  (create-vite 9.3.4), plus the `package-lock.json` that `npm install` wrote. No `node_modules` (npm install makes it).
+  (create-vite 9.3.4, Node 26.13.0), plus the `package-lock.json` that `npm install` wrote (Vite 8.3.8). No `node_modules`
+  (npm install makes it).
 - `starter/`: the "your turn" exercise, as a checklist with TODOs.
 
 ## Run the solution
