@@ -26,4 +26,7 @@ If you don't have Node.js and VS Code yet, lesson 01 shows you where to get them
 <!-- lessons -->
 | # | Lesson | Video |
 |---|---|---|
+| 00 | [How to Learn JavaScript in 2027: Free Roadmap (Start Here)](lessons/00-start-here) | coming soon |
+| 01 | [Set Up VS Code, Node.js and Chrome DevTools](lessons/01-setup) | coming soon |
+| 02 | [Your First JavaScript Program (Browser and Node)](lessons/02-first-program) | coming soon |
 <!-- /lessons -->
